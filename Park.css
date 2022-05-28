@@ -1,0 +1,96 @@
+body
+{
+    background: url(imagenes/C.jpg);
+    width:1500px ;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.jiminie
+{
+    background: url(imagenes/morado1.jpg);
+    width: 105%;
+    height: 50px;
+    text-align: center;
+}
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    text-shadow:0px o #67e6b5,
+    0 2px 0 #6e60e7,
+    0 3px 0 #f33939,
+    0 4px 0 #0feec9,
+    0 5px 0 #91215e,
+    0 6px 1px rgba(0, 0, 0, .1),
+    0 0 5px rgba(0, 0, 0, .1),
+    0 1px 3px rgba(0, 0, 0, .3),
+    0 3px 5px rgba(0, 0, 0, .2),
+    0 5px 10px rgba(0, 0, 0, .25),
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .15);
+}
+h2
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: #0e080a,
+    0 2px 0 #1a1922,
+    0 3px 0 #0a0707,
+    0 4px 0 #0c6858,
+    0 5px 0 #910b54,
+    0 6px 1px rgba(0, 0, 0, .1),
+    0 0 5px rgba(0, 0, 0, .1),
+    0 1px 3px rgba(0, 0, 0, .3),
+    0 3px 5px rgba(0, 0, 0, .2),
+    0 5px 10px rgba(0, 0, 0, .25),
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .15);
+
+}
+nav
+{
+    display: inline-block;
+    width: 1500px;
+    height: 90px;
+    text-align: center;
+    background: url(imagenes/color4.jpg);
+}
+aside
+{
+    position: relative;
+    box-shadow: 0px 2px 2px #0e080a;
+    border-radius: 2px;
+    padding: 10px;
+    color: rgb(124, 46, 134);
+    font-size: 0.9em;
+    background: url(imagenes/color3.jpg);
+    margin: 0px;
+    width: 30%;
+    height: 50%;
+    float: right;
+    box-sizing: border-box;
+}
+section
+{
+    position: relative;
+    box-shadow:0px 2px 4px #1c1a19;
+    border-radius: 3px;
+    padding: 20px;
+    color:rgb(12, 103, 206);
+    font-size: 0.9em;
+    background: url(imagenes/color6.jpg);
+    margin: 1px;
+    width: 50%;
+    height: 90%;
+    float: left;
+    box-sizing: border-box; 
+}
+footer
+{
+    padding-top: 40px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 80px;
+    background: url(imagenes/color5.jpg);
+}
